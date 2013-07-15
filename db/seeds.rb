@@ -6,10 +6,26 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Product.create(title: 'Programming Ruby 1.9 & 2.0',
+Product.create(title: 'Apple',
     description:
       %{<p>
-          Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
+          These are delicious, crunchy and sweet MacIntosh apples.
         </p>},
-    image_url: 'ruby.jpg',
-    price: 49.95)
+    image_url: 'apple.jpg',
+    price: 1.49)
+
+Product.create(title: 'Orange',
+    description:
+      %{<p>
+          Sweet and delicious Flordia Navel Oranges.
+        </p>},
+    image_url: 'orange.jpg',
+    price: 1.99)
+
+Product.create(title: 'Banana',
+    description:
+      %{<p>
+          Yummy ripe golden yellow Bananas from South America.
+        </p>},
+    image_url: 'banana.jpg',
+    price: 0.49)
