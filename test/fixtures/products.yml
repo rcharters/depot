@@ -5,3 +5,15 @@ ruby:
   description: Ruby is the fastest growing and most exciting dynamic language our there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
   image_url: ruby.png
   price: 49.50
+
+diamond:
+  title: Programming diamond 1.9
+  description: diamond is the fastest growing and most exciting dynamic language our there. If you need to get working programs delivered fast, you should add diamond to your toolbox.
+  image_url: diamond.png
+  price: 49.50
+
+saphire:
+  title: Programming saphire 1.9
+  description: saphire is the fastest growing and most exciting dynamic language our there. If you need to get working programs delivered fast, you should add saphire to your toolbox.
+  image_url: saphire.png
+  price: 49.50
